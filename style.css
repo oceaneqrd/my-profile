@@ -1,0 +1,241 @@
+body {
+	background-color: FCFCFC;
+	color: #606060;
+	font-family: 'Lato', sans-serif;
+	text-justify: justify;
+	text-justify: center;}
+
+h1, h2 {
+	color: #4A4A4A;}
+
+		h1 {
+			font-family: 'Inter', sans-serif;
+			font-weight: 900;
+			font-size: 45px;
+			line-height: 0.5;
+			letter-spacing: 2px;}
+
+h2, h3 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 800;
+	font-size: 30px;
+	line-height: 0.1;}
+
+		h3 {
+			line-height: 0.5;
+			color: #4A4A4A;}
+
+h4 {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 500;}
+
+h6 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 0;}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	text-justify: center;
+	text-justify: justify;
+	letter-spacing: 0px;}
+
+ul {
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;}
+
+img {
+	position: relative;
+	width: 250px;
+  height: 355px;
+  left: 10px;
+  border-radius: 40px;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 8%);
+}
+
+a {
+	text-decoration: none;
+	text-decoration: underline;}
+
+a {
+  color: #4A4A4A;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-left: 20px;}
+
+a:hover {
+  color: #D1D1D1;
+  text-decoration: none;}
+
+
+.container {
+  width: 1200px;
+  height: 1650px;  
+  margin: 85px auto;}
+
+@media (max-width: 800px) {
+	.container {
+		width: 700px;}}
+
+.card-white {
+	position: absolute;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 8%);
+  border-radius: 20px;
+  padding: 20px;}
+
+#profile {
+	width: 277px;
+  height: auto;
+  right: 85px;
+  top: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 35px;
+  padding-left: 35px;}
+    
+#presentation {
+	background: none;
+	box-shadow: none;
+	width: 480;
+  height: 330px;
+  right: 450px;
+	top: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 30px;}
+
+.btn-grey{
+    background-color: #606060;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 30px;
+  	font-size: 20px;
+  	font-weight: bold;
+		margin-left: 45px;}
+
+.list-space{
+  line-height: 0;}
+
+.card-rectangle{
+	position: absolute;
+	width: 54px;
+	height: 25px;
+	box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.02);
+	border-radius: 5px;
+  z-index: 10;}
+		#rectangle1{
+			background: #FFC700;
+			left: 930px;
+    	top: 90px;}
+		#rectangle2{
+			background: #D3D3D3;
+			left: 865px;
+			top: 480px;}
+		#rectangle3{
+			position: absolute;
+			background: #FFC700;
+			left: 95px;
+			top: 480px;}
+		#rectangle4{
+			background: #D3D3D3;
+			left: 95px;
+			top: 1120px;}
+		#rectangle5{
+			background: #FFC700;
+			left: 640px;
+			top: 1120px;}
+		#rectangle6{
+			background: #FFC700;
+			left: 95px;
+			top: 1640px;}
+
+.card-transparent{
+	position: absolute;
+	width: auto;
+	height: auto;
+	z-index: 10;}
+		#title1{
+			right: 260px;
+    	top: 70px;}
+		#title2{
+			right: 685px;
+			top: 460px;}
+		#title3{
+			right: 1045px;
+			top: 1100px;}
+		#title4{
+			right: 345px;
+			top: 460px;	}
+		#title5{
+			right: 515px;
+			top: 1100px;}
+		#title6{
+			right: 1025px;
+			top: 1620px;}
+
+#work {
+	width: 660px;
+  height: 560px;
+	top: 490px;
+	left: 85px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+	padding-right: 35px;
+  padding-left: 35px;}
+
+#education {
+	width: 430px;
+  height: auto;
+	top: 1130px;
+	left: 85px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+	padding-right: 35px;
+  padding-left: 35px;}
+    
+#skills {
+  width: 340px;
+  height: 560px;
+  right: 85px;
+  top: 490px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+	padding-right: 35px;
+  padding-left: 35px;}
+    
+.point{
+	position: absolute;
+  width: 210px;
+  height: 220px;
+  left: 150px;
+  top: 260;
+  box-shadow: none;}
+
+#interests {
+  width: 565px;
+  height: auto;
+  right: 85px;
+  top: 1130px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+	padding-right: 35px;
+  padding-left: 35px;}
+
+.fa-solid{
+	margin-right: 15px;}
+
+#references {
+  width: 1110px;
+  height: auto;
+  right: 85px;
+  top: 1650px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+	padding-right: 35px;
+  padding-left: 35px;}
